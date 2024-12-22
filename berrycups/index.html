@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BerryCups</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- boxicons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <!-- header section start -->
+        <header class="header">
+            <a href="#home" class="logo">Berry<span class="moment">c <span><i class='bx bxs-coffee'></i></span> ps.</span></a>
+        </header>
+        <!-- header section end -->
+
+
+        <!-- main section start -->
+        <main class="main">
+            <section class="home" id="home">
+                <div class="text">
+                    <h3 class="heading3">ENJOY <span>A</span> TASTY</h3>
+                    <h1 class="heading1">COFFEE</h1>
+                    <div class="social">
+                        <p>Follow us on our social media</p>
+                        <i class='bx bxl-instagram-alt'></i>
+                        <i class='bx bxl-facebook-circle'></i>
+                        <i class='bx bxl-tiktok'></i>
+                        <i class='bx bxl-youtube'></i>
+                        <i class='bx bxl-whatsapp'></i>
+                    </div>
+                    <div class="bt">
+                        <a href="#order">Order a coffee</a>
+                    </div>
+                </div>
+                <div class="home-img">
+                    <img src="C:\Users\Administrator\Desktop\Cherubin\projects\berrycups\images\background.jpg">
+                </div>
+            </section>
+            <section class="order" id="order">
+                <h3 class="h3">Order a tasty <span>coffee!</span></h3>
+                <form class="form">
+                        <input type="text" name="name" placeholder="Name" required class="input">
+                        <select name="coffee" value="coffee" class="input">
+                            <option value="choose coffee">Choose coffee</option>
+                            <option value="espresso">Espresso    $5.4</option>
+                            <option value="latte">Latte    $3.0</option>
+                            <option value="cappuccino">Cappuccino    $6.4</option>
+                            <option value="americano">Americano    $7.0</option>
+                            <option value="macchiato">Macchiato    $4.4</option>
+                            <option value="mocha">Mocha    $5.4</option>
+                            <option value="irish coffee">Irish Coffee    $9.4</option>
+                            <option value="cold brew">Cold Brew    $6.4</option>
+                            <option value="frappe">Frappe    $2.4</option>
+                            <option value="vietnamese coffee">Vietnamese Coffee    $5.4</option>
+                            <option value="affogato">Affogato    $2.0</option>
+                            <option value="cortado">Cortado    $5.4</option>
+                            <option value="flat white">Flat White    $3.4</option>
+                            <option value="cafe au lait">Cafe au Lait    $7.4</option>
+                            <option value="red eye">Red Eye    $10.0</option>
+                        </select>
+                        <select name="treat" value="Treat" class="input">
+                            <option value="choose treat">Choose treat</option>
+                            <option value="croissants">Croissants & walnuts    $5.4</option>
+                            <option value="muffins">Muffins    $3.0</option>
+                            <option value="chocolate chip">chocolate chip & almonds    $6.4</option>
+                            <option value="red velvet cake">Red Velvet Cake    $7.0</option>
+                            <option value="chocolate cake">Chocolate Cake    $4.4</option>
+                            <option value="pumpkin pie">Pumpkin Pie    $5.4</option>
+                            <option value="fudgy brownies">Fudgy Brownies    $9.4</option>
+                            <option value="chocolate biscotti">Chocolate Biscotti $ dark chocolate   $6.4</option>
+                            <option value="jelly-filled donuts">Jelly-filled Donuts   $2.4</option>
+                            <option value="apple turnovers">Apple Turnovers & cranberries    $5.4</option>
+                            <option value="shortbread">Shortbread    $2.0</option>
+                        </select>
+                        <input type="text" name="location" placeholder="Location" required class="input">
+                        <a href="#" class="btn" onclick ="let y = confirm('do you want to make this order');console.log(y);"><input type="submit" name="request-order" value="Send order"></a>
+                    </form>
+            </section>
+        </main>
+        <!-- main section end -->
+
+
+        <!-- footer section start -->
+        <footer class="footer">
+            <p>Copyright <i class='bx bx-copyright'></i> Berrycups 2024 | All rights reserved</p>
+        </footer>
+        <!-- footer section end -->
+        <script src="script.js"></script>
+    </body>
+</html>
